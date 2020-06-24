@@ -1,0 +1,17 @@
+{
+    "name": "Test Assignment",
+    "endpoint": "hphk/ssafy/fa20/tests",
+    "src": [
+        "hw1.py"
+    ],
+    "tests": {
+        "hw1.py:square":"doctest",
+        "hw1.py:get_odds":"doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
